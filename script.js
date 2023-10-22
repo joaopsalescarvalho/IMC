@@ -36,7 +36,7 @@ function nextScreen(){
     }else{
     let n1 =Number(peso.value);
     let n2 =Number(altura.value);
-    const imc = (n1 / (n2 * n2)).toFixed(0);
+    const imc = (n1 / (n2 * n2)).toFixed(1);
     screen1.style.display='none';
     screen2.style.display='block';
     res.innerHTML=`Seu IMC: ${imc}`;
