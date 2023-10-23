@@ -40,7 +40,7 @@ button{
     border-radius: 5px;
 }
 #screen1{
-    display: none;
+    display: block;
 }
 .balanca{
     width: 380px;
@@ -51,7 +51,7 @@ input{
     border-radius: 10px;
 }
 #screen2{
-    display: block;
+    display: none;
 }
 #screen2>p{
     color: white;
